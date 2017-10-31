@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Zapbrew Print and Net Shop</title>
+  <script src="auditForm.js" type="text/javascript"></script>
   <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
   <div id="auditForm">
     <div class="wrapper">      
         <h3 id="auditTitle">Audit</h3>
-        <form class="kaha-audit">
+        <form action="#" method="POST" class="kaha-audit" name="adtFrm">
           <ul>
             <li>
               <label for="piso">P 1.00</label>
@@ -53,13 +54,14 @@
               <input type="number" name="1k" value="">
               <span>Enter number of P 1,000.00</span>
             </li>
-            <span>
+            <span id="remitted">
               <li>
-                <label for="desc">Daily Remitted Cash</label>
+                <label for="remit">Daily Remitted Cash</label>
                 <input type="number" name="remit" value="0">
                 <span>Nakuhang buo sa kaha.</span>
               </li>
             </span>
+            <input type="button" onclick="addFeild('remitted');" value="+">
             <input type="submit">
           </ul>
         </form>
