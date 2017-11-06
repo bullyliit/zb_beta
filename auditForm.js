@@ -10,6 +10,7 @@ function addFeild(spanId){
     var inptWho = document.createElement("INPUT");
     var inptHwMch = document.createElement("INPUT");
     lbl.setAttribute("for", "nakuha_" + i);
+    lbl.setAttribute("value", "Name and amount");
     inptWho.setAttribute("type", "text");
     inptWho.setAttribute("name", "sino_" + i);
     inptWho.setAttribute("placeholder", "Sinong nanguha");
