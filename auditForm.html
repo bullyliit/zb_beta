@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ZB - Audit Form</title>
+  <script src="auditForm.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div id="auditForm">
+    <div class="wrapper">
+      <h3 id="auditTitle">Audit</h3>
+      <form action="#" method="POST" class="kaha-audit" name="adtFrm">
+        <ul>
+          <li>
+            <label for="piso">P 1.00</label>
+            <input type="number" name="piso" value="">
+            <span>Enter number of 1.00</span>
+          </li>
+          <li>
+            <label for="lima">P 5.00</label>
+            <input type="number" name="lima" value="">
+            <span>Enter number of 5.00</span>
+          </li>
+          <li>
+            <label for="sampu">P 10.00</label>
+            <input type="number" name="sampu" value="">
+            <span>Enter number of 10.00</span>
+          </li>
+          <li>
+            <label for="bente">P 20.00</label>
+            <input type="number" name="bente" value="">
+            <span>Enter number of 20.00</span>
+          </li>
+          <li>
+            <label for="singkwenta">P 50.00</label>
+            <input type="number" name="singkwenta" value="">
+            <span>Enter number of 50.00</span>
+          </li>
+          <li>
+            <label for="1hndrd">P 100.00</label>
+            <input type="number" name="1hndrd" value="">
+            <span>Enter number of 100.00</span>
+          </li>
+          <li>
+            <label for="5hndrd">P 500.00</label>
+            <input type="number" name="5hndrd" value="">
+            <span>Enter number of 500.00</span>
+          </li>
+          <li>
+            <label for="1k">P 1,000.00</label>
+            <input type="number" name="1k" value="">
+            <span>Enter number of P 1,000.00</span>
+          </li>
+          <span id="remitted">
+              <li>
+                <label for="remit">Daily Remitted Cash</label>
+                <input type="number" name="remit" value="0">
+                <span>Nakuhang buo sa kaha.</span>
+          </li>
+          </span>
+          <span id="cshOut">
+              <h4>Other cash out</h4>
+            </span>
+          <input type="button" id="addBtn" onclick="addFeild('cshOut');" value="+">
+          <input type="submit">
+        </ul>
+      </form>
+    </div>
+  </div>
+  <a href="https://www.dropbox.com/request/heWHU4HaPU2Lo8o22DcS">Upload Logfile Report</a>
+</body>
+
+</html>
